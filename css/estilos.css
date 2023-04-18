@@ -12,11 +12,23 @@ html {
 }
 
 body {
-    font-size: 1.6rem;
+    font-size: 1.4rem;
+    font-family: var(--font-body);
 }
 
 :root {
     /* Fuentes */
     --font-body: font-family: 'Open Sans', sans-serif;
     --font-headings: 'Raleway', sans-serif;
+
+    /* Colores */
+    --blue-bg: hsl(217, 28%, 15%);
+    --blue-main: hsl(218, 28%, 13%);
+    --blue--footer-bg: hsl(216, 53%, 9%);
+    --blue-testimoniales-bg: hsl(219, 30%, 18%);
+
+    --cyan: hsl(176, 68%, 64%);
+    --blue: hsl(198, 60%, 50%);
+    --light-red: hsl(0, 100%, 63%);
+    --white: hsl(0, 0%, 100%);
 }
